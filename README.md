@@ -7,20 +7,23 @@
 Instructions to this assignment can be found [here](https://reedws.github.io/IT3049C/coursework/labs/chatting-app/).
 - [x] update the assignment checks above to the correct link. - Done Automatically
 ## Checklist:
-- [ ] update the assignment checks above to the correct link
-- [ ] make sure the assignment checks pass
-- [ ] fill out the self evaluation and Reflection
-- [ ] submit the repository link on Canvas
+- [x] update the assignment checks above to the correct link
+- [x] make sure the assignment checks pass
+- [x] fill out the self evaluation and Reflection
+- [x] submit the repository link on Canvas
 
 ## Self-Evaluation:
 
-how many points out of 20 do you deserve on this assignment: 
+how many points out of 20 do you deserve on this assignment: 20
 
 ## Self-Reflection:
 <!-- Write your self-reflection under this line -->
+This was quite an interesting and fun assignment to work on. Now I now a bit more about how real-word applications such as these are made.
+The assignment was not too difficult, and the example code in the instructions was beneficial since it showed me the concept of how the different functions help the application perform.
 
 ### How long it took me to finish this?
-
+2 hours
 
 ## Discussion Questions:
 1. What does the bootstrap `display-4` class do?
+This bootsrap class specifies the font class and weight for a header. Similar to HTML's h1,h2, and so on, bootstrap has display-1, display-2, display-3, and display-4.

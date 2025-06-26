@@ -24,6 +24,4 @@ The assignment was not too difficult, and the example code in the instructions w
 ### How long it took me to finish this?
 2 hours
 
-## Discussion Questions:
-1. What does the bootstrap `display-4` class do?
-This bootsrap class specifies the font class and weight for a header. Similar to HTML's h1,h2, and so on, bootstrap has display-1, display-2, display-3, and display-4.
+

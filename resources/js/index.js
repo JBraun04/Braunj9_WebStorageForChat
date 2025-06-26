@@ -5,6 +5,8 @@ const chatBox = document.getElementById("chat");
 
 const serverURL = `https://it3049c-chat.fly.dev/messages`;
 
+const saveNameBtn = document.getElementById("save-name-button");
+
 function fetchMessages() {
     return fetch(serverURL)
         .then( response => response.json())
@@ -82,4 +84,30 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
 
     sendMessages(sender,message);
     myMessage.value = "";
+});
+
+const savedName = localStorage.getItem("chat-username");
+if (savedName !== null)
+{
+    nameInput.value = savedName;
+    myMessage.disabled = false;
+    sendButton.disabled = false;
+}
+
+else
+
+{
+    myMessage.disabled = true;
+    sendButton.disabled = true;
+}
+
+saveNameBtn.addEventListener('click', function( )
+{
+    const name = nameInput.value;
+    if (name !== null)
+    {
+        localStorage.setItem("chat-username", name);
+        myMessage.disabled = false;
+        sendButton.disabled = false;
+    }
 });

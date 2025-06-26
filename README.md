@@ -18,8 +18,7 @@ how many points out of 20 do you deserve on this assignment: 20
 
 ## Self-Reflection:
 <!-- Write your self-reflection under this line -->
-This was quite an interesting and fun assignment to work on. Now I now a bit more about how real-word applications such as these are made.
-The assignment was not too difficult, and the example code in the instructions was beneficial since it showed me the concept of how the different functions help the application perform.
+Once I researched and figured out how to write the functions, I examined them to ensure that I fully understood what they do. I enjoyed testing it and seeing how the name saves even if the site is closed re-opened. It was also interesting to use the getMessage.true and getMessage.false to restrict messaging.
 
 ### How long it took me to finish this?
 2 hours
